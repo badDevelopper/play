@@ -1,15 +1,17 @@
 {
-  "name": "play",
+  "name": "my-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@distube/ytdl-core": "^4.13.5",
     "axios": "^1.7.2",
     "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
     "node-fetch": "^2.6.1",
+    "playwright": "^1.45.1",
     "yt-search": "^2.11.1"
   }
 }
