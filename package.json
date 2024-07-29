@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "bash iniciar.sh"
   },
   "dependencies": {
     "@distube/ytdl-core": "^4.13.5",
